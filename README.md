@@ -15,5 +15,5 @@ Graph RAG Experiment
 
 ## CLIP(Contrastive Language and Image pretraining) Embedding model :-
 1) Core functionality :-
-   It has inbuilt 2 transformers called vision transformer and normal transformer for text. Images will have image transformer and text will have embeddings from text encoder . By using contrastive learning CLIP understands the relationship between visual and textual information.  Very advantageous in identifying images based on the text and in situations where images required training under nlp supervision. That is why I have used this embedding and this plays major role in retriving answers related to images.</br>
-   ref lin paper :- https://arxiv.org/pdf/2103.00020
+   It has inbuilt 2 transformers called vision transformer and normal transformer for text. Images will have image transformer and text will have embeddings from text encoder . By using contrastive learning CLIP understands the relationship between visual and textual information.  Very advantageous in identifying images based on the text and in situations where images required training under nlp supervision. That is why I have used this embedding and this plays major role in retriving accurate answers related to images.</br>
+   ref link paper :- https://arxiv.org/pdf/2103.00020
