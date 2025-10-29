@@ -1,0 +1,11 @@
+sections:
+  "(?i)\\bGENERAL\\s+NOTES?\\b": 2.0
+  "(?i)\\bPLUMBING(\\s+GENERAL)?\\s+NOTES?\\b": 2.3
+  "(?i)\\bOVERHEAD\\s+DOOR\\s+NOTES?\\b|\\b(OHD|OVHD)\\s+DOOR\\b": 2.3
+  "(?i)\\bELECTRICAL\\s+NOTES?\\b": 1.6
+  "(?i)\\bSTRUCTURAL\\s+NOTES?\\b": 1.6
+  "(?i)\\bVICINITY\\s+MAP\\b|\\bLOCATION\\s+MAP\\b|\\bKEY\\s+PLAN\\b": 2.0
+  "(?i)\\bLEGEND\\b|\\bSYMBOLS\\b": 1.3
+  "(?i)\\bDOOR\\s+SCHEDULE\\b|\\bWINDOW\\s+SCHEDULE\\b|\\bFINISH\\s+SCHEDULE\\b": 1.8
+  "(?i)\\bFIRE\\s+ALARM\\s+NOTES?\\b": 1.8
+  "(?i)\\bENLARGED\\s+PLAN\\b|\\bELEVATIONS?\\b|\\bDETAILS?\\b|\\bSECTIONS?\\b": 1.3

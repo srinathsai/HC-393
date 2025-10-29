@@ -1,0 +1,46 @@
+# FastAPI and server
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Database clients
+neo4j
+qdrant-client==1.8.0
+
+# Task queue
+rq
+redis
+
+# OpenAI
+openai
+
+# PDF processing
+PyMuPDF
+pdf2image
+Pillow
+
+# OCR
+paddleocr
+paddlepaddle
+opencv-python
+
+# Text processing
+sentence-transformers
+tiktoken
+
+# Utilities
+pydantic
+pydantic-settings
+python-dotenv
+numpy
+
+
+orjson
+chromadb
+
+rank-bm25
+open-clip-torch    # optional for visual retrieval
+Pillow             # if you use image ingestion
+
+
+pdfplumber

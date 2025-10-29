@@ -1,0 +1,374 @@
+ [Config] Loading settings...
+✅ [Config] Settings loaded
+   OpenAI model: gpt-4o
+   Temperature: 0.35
+   Max tokens: 2000
+   Final context chunks: 50
+
+================================================================================
+⚡ PROCESSING: BEK Bruno - FP.pdf
+🆔 Doc ID: 72ff19e0-5f98-4ee8-8484-72dce335df53
+================================================================================
+
+🔧 Step 1: Initializing services...
+   📂 ChromaDB path: C:\chroma\construction_graph
+🔧 [EntityExtractor] Initializing with model: gpt-4o
+✅ [EntityExtractor] Ready
+   ✅ All services ready
+
+📖 Step 2: PDF Processing...
+   📄 Opening PDF...
+   📊 Found 38 pages
+   🔄 Processing in 19 batches of 2 pages each...
+
+   ⚙️ Batch 1/19: pages 1-2...
+   ✅ Created 2 chunks from text
+   ✅ Created 3 chunks from text
+   🔍 Starting text entity extraction...
+   ✅ Regex extraction: 6 entities, 0 relationships
+   ✅ LLM extraction: 5 entities, 3 relationships
+   ✅ Total after deduplication: 11 entities, 3 relationships
+      ✅ Batch 1 complete: 5 chunks, 11 entities
+   ⚙️ Batch 2/19: pages 3-4...
+   ✅ Created 2 chunks from text
+   ✅ Created 3 chunks from text
+   🔍 Starting text entity extraction...
+   ✅ Regex extraction: 16 entities, 0 relationships
+   ✅ LLM extraction: 13 entities, 4 relationships
+   ✅ Total after deduplication: 29 entities, 4 relationships
+      ✅ Batch 2 complete: 5 chunks, 29 entities
+   ⚙️ Batch 3/19: pages 5-6...
+   ✅ Created 2 chunks from text
+   ✅ Created 3 chunks from text
+   🔍 Starting text entity extraction...
+   ✅ Regex extraction: 6 entities, 0 relationships
+   ✅ LLM extraction: 12 entities, 4 relationships
+   ✅ Total after deduplication: 18 entities, 4 relationships
+      ✅ Batch 3 complete: 5 chunks, 18 entities
+   ⚙️ Batch 4/19: pages 7-8...
+   ✅ Created 3 chunks from text
+   ✅ Created 3 chunks from text
+   🔍 Starting text entity extraction...
+   ✅ Regex extraction: 12 entities, 0 relationships
+   ✅ LLM extraction: 9 entities, 8 relationships
+   ✅ Total after deduplication: 21 entities, 8 relationships
+      ✅ Batch 4 complete: 6 chunks, 21 entities
+   ⚙️ Batch 5/19: pages 9-10...
+   ✅ Created 3 chunks from text
+   ✅ Created 3 chunks from text
+   🔍 Starting text entity extraction...
+   ✅ Regex extraction: 16 entities, 0 relationships
+   ✅ LLM extraction: 17 entities, 6 relationships
+   ✅ Total after deduplication: 32 entities, 6 relationships
+      ✅ Batch 5 complete: 6 chunks, 32 entities
+   ⚙️ Batch 6/19: pages 11-12...
+   ✅ Created 2 chunks from text
+   ✅ Created 2 chunks from text
+   🔍 Starting text entity extraction...
+   ✅ Regex extraction: 4 entities, 0 relationships
+   ✅ LLM extraction: 5 entities, 4 relationships
+   ✅ Total after deduplication: 9 entities, 4 relationships
+      ✅ Batch 6 complete: 4 chunks, 9 entities
+   ⚙️ Batch 7/19: pages 13-14...
+   ✅ Created 3 chunks from text
+   ✅ Created 2 chunks from text
+   🔍 Starting text entity extraction...
+   ✅ Regex extraction: 57 entities, 0 relationships
+   ✅ LLM extraction: 13 entities, 12 relationships
+   ✅ Total after deduplication: 69 entities, 12 relationships
+      ✅ Batch 7 complete: 5 chunks, 69 entities
+   ⚙️ Batch 8/19: pages 15-16...
+   ✅ Created 2 chunks from text
+   ✅ Created 3 chunks from text
+   🔍 Starting text entity extraction...
+   ✅ Regex extraction: 53 entities, 0 relationships
+   ✅ LLM extraction: 12 entities, 8 relationships
+   ✅ Total after deduplication: 65 entities, 8 relationships
+      ✅ Batch 8 complete: 5 chunks, 65 entities
+   ⚙️ Batch 9/19: pages 17-18...
+   ✅ Created 2 chunks from text
+   ✅ Created 3 chunks from text
+   🔍 Starting text entity extraction...
+   ✅ Regex extraction: 13 entities, 0 relationships
+   ✅ LLM extraction: 8 entities, 7 relationships
+   ✅ Total after deduplication: 21 entities, 7 relationships
+      ✅ Batch 9 complete: 5 chunks, 21 entities
+   ⚙️ Batch 10/19: pages 19-20...
+   ✅ Created 4 chunks from text
+   ✅ Created 4 chunks from text
+   🔍 Starting text entity extraction...
+   ✅ Regex extraction: 4 entities, 0 relationships
+   ✅ LLM extraction: 10 entities, 2 relationships
+   ✅ Total after deduplication: 13 entities, 2 relationships
+      ✅ Batch 10 complete: 8 chunks, 13 entities
+   ⚙️ Batch 11/19: pages 21-22...
+   ✅ Created 4 chunks from text
+   ✅ Created 4 chunks from text
+   🔍 Starting text entity extraction...
+   ✅ Regex extraction: 5 entities, 0 relationships
+   ✅ LLM extraction: 6 entities, 5 relationships
+   ✅ Total after deduplication: 11 entities, 5 relationships
+      ✅ Batch 11 complete: 8 chunks, 11 entities
+   ⚙️ Batch 12/19: pages 23-24...
+   ✅ Created 4 chunks from text
+   ✅ Created 4 chunks from text
+   🔍 Starting text entity extraction...
+   ✅ Regex extraction: 15 entities, 0 relationships
+   ✅ LLM extraction: 12 entities, 10 relationships
+   ✅ Total after deduplication: 23 entities, 10 relationships
+      ✅ Batch 12 complete: 8 chunks, 23 entities
+   ⚙️ Batch 13/19: pages 25-26...
+   ✅ Created 4 chunks from text
+   ✅ Created 4 chunks from text
+   🔍 Starting text entity extraction...
+   ✅ Regex extraction: 4 entities, 0 relationships
+   ✅ LLM extraction: 12 entities, 1 relationships
+   ✅ Total after deduplication: 15 entities, 1 relationships
+      ✅ Batch 13 complete: 8 chunks, 15 entities
+   ⚙️ Batch 14/19: pages 27-28...
+   ✅ Created 2 chunks from text
+   ✅ Created 4 chunks from text
+   🔍 Starting text entity extraction...
+   ✅ Regex extraction: 72 entities, 0 relationships
+   ✅ LLM extraction: 6 entities, 2 relationships
+   ✅ Total after deduplication: 73 entities, 2 relationships
+      ✅ Batch 14 complete: 6 chunks, 73 entities
+   ⚙️ Batch 15/19: pages 29-30...
+   ✅ Created 3 chunks from text
+   ✅ Created 3 chunks from text
+   🔍 Starting text entity extraction...
+   ✅ Regex extraction: 47 entities, 0 relationships
+   ✅ LLM extraction: 26 entities, 3 relationships
+   ✅ Total after deduplication: 68 entities, 3 relationships
+      ✅ Batch 15 complete: 6 chunks, 68 entities
+   ⚙️ Batch 16/19: pages 31-32...
+   ✅ Created 3 chunks from text
+   ✅ Created 2 chunks from text
+   🔍 Starting text entity extraction...
+   ✅ Regex extraction: 46 entities, 0 relationships
+   ✅ LLM extraction: 26 entities, 7 relationships
+   ✅ Total after deduplication: 66 entities, 7 relationships
+      ✅ Batch 16 complete: 5 chunks, 66 entities
+   ⚙️ Batch 17/19: pages 33-34...
+   ✅ Created 3 chunks from text
+   ✅ Created 2 chunks from text
+   🔍 Starting text entity extraction...
+   ✅ Regex extraction: 11 entities, 0 relationships
+   ✅ LLM extraction: 16 entities, 15 relationships
+   ✅ Total after deduplication: 24 entities, 15 relationships
+      ✅ Batch 17 complete: 5 chunks, 24 entities
+   ⚙️ Batch 18/19: pages 35-36...
+   ✅ Created 3 chunks from text
+   ✅ Created 3 chunks from text
+   🔍 Starting text entity extraction...
+   ✅ Regex extraction: 11 entities, 0 relationships
+   ✅ LLM extraction: 11 entities, 10 relationships
+   ✅ Total after deduplication: 16 entities, 10 relationships
+      ✅ Batch 18 complete: 6 chunks, 16 entities
+   ⚙️ Batch 19/19: pages 37-38...
+   ✅ Created 1 chunks from text
+   ✅ Created 4 chunks from text
+   🔍 Starting text entity extraction...
+   ✅ Regex extraction: 5 entities, 0 relationships
+   ✅ LLM extraction: 10 entities, 8 relationships
+   ✅ Total after deduplication: 15 entities, 8 relationships
+      ✅ Batch 19 complete: 5 chunks, 15 entities
+
+   ✅ Text extraction complete: 38 pages
+   ✅ Total chunks: 111
+   ✅ Total entities: 599, relationships: 119
+
+🔗 Step 3: Creating vector embeddings...
+   🎯 Using model: text-embedding-3-small (1536 dimensions)
+   ✅ Embedded batch 1/6
+   ✅ Embedded batch 2/6
+   ✅ Embedded batch 3/6
+   ✅ Embedded batch 4/6
+   ✅ Embedded batch 5/6
+   ✅ Embedded batch 6/6
+   ✅ Created 111 vector points
+
+🔍 Step 4: Vision extraction (first 3 pages)...
+   📸 Processing page 1...
+
+🖼️ [VISION EXTRACTION] Page 1
+   Image size: 3190228 bytes (base64)
+   🔄 Calling GPT-4o Vision API...
+   ✅ Vision API response received
+   ✅ JSON parsed successfully
+   📊 Diagram type detected: fire protection
+   ✅ VISION EXTRACTION COMPLETE:
+      Type: fire protection
+      Entities: 8
+      Relationships: 7
+      Summary: This diagram shows the fire protection layout including sprinkler systems and fire hydrants for vari
+      ✅ Page 1: 8 entities, 7 rels
+   📸 Processing page 2...
+
+🖼️ [VISION EXTRACTION] Page 2
+   Image size: 1951376 bytes (base64)
+   🔄 Calling GPT-4o Vision API...
+   ✅ Vision API response received
+   ✅ JSON parsed successfully
+   📊 Diagram type detected: fire protection
+   ✅ VISION EXTRACTION COMPLETE:
+      Type: fire protection
+      Entities: 3
+      Relationships: 0
+      Summary: This diagram shows the fire protection plan for a freezer area.
+      ✅ Page 2: 3 entities, 0 rels
+   📸 Processing page 3...
+
+🖼️ [VISION EXTRACTION] Page 3
+   Image size: 2549540 bytes (base64)
+   🔄 Calling GPT-4o Vision API...
+   ✅ Vision API response received
+   ✅ JSON parsed successfully
+   📊 Diagram type detected: fire protection
+   ✅ VISION EXTRACTION COMPLETE:
+      Type: fire protection
+      Entities: 5
+      Relationships: 3
+      Summary: This diagram shows the fire protection plan for a freezer area including docks and component details
+      ✅ Page 3: 5 entities, 3 rels
+   ✅ Vision complete: 16 entities total
+
+📇 Step 5: BM25 indexing...
+   ✅ BM25 indexed 111 chunks
+
+🕸️ Step 6: Saving to Neo4j...
+   📊 Total entities: 615
+   📊 Total relationships: 129
+   ✅ Neo4j: 615 entities saved
+   ✅ Neo4j: 129 relationships saved
+
+💾 Step 7: Saving to ChromaDB...
+   📊 Vector points to save: 111
+   ✅ Saved batch 1/3
+   ✅ Saved batch 2/3
+   ✅ Saved batch 3/3
+   ✅ ChromaDB: 111 vectors saved
+
+================================================================================
+✅ PROCESSING COMPLETE!
+================================================================================
+
+19:47:20 Successfully completed app.workers.ingestion_worker.process_document('uploads\\72ff19e0-5f98-4ee8-8484-72dce335df53.pdf', '72ff19e0-5f98-4ee8-8484-72dce335df53', 'BEK Bruno - FP.pdf') job in 0:04:43.152510s on worker 8f85a4a1eb1145d9aa2ba9adf72d11e6
+19:47:20 construction-queue: Job OK (b6ef0ac9-85e0-411d-9c24-2f05d14168c1)
+19:47:20 Result is kept for 500 seconds
+19:47:20 construction-queue: app.workers.ingestion_worker.process_document('uploads\\5c6bc829-c56e-4034-85ea-8c4bfefb28ff.pdf', '5c6bc829-c56e-4034-85ea-8c4bfefb28ff', 'BEK Bruno - Refrigeration (Rev1).pdf') (81fcd64e-c05f-418e-a5e1-a1b172b44c20)
+
+================================================================================
+⚡ PROCESSING: BEK Bruno - Refrigeration (Rev1).pdf
+🆔 Doc ID: 5c6bc829-c56e-4034-85ea-8c4bfefb28ff
+================================================================================
+
+🔧 Step 1: Initializing services...
+   📂 ChromaDB path: C:\chroma\construction_graph
+🔧 [EntityExtractor] Initializing with model: gpt-4o
+✅ [EntityExtractor] Ready
+   ✅ All services ready
+
+📖 Step 2: PDF Processing...
+   📄 Opening PDF...
+   📊 Found 7 pages
+   🔄 Processing in 4 batches of 2 pages each...
+
+   ⚙️ Batch 1/4: pages 1-2...
+   ✅ Created 2 chunks from text
+   ✅ Created 2 chunks from text
+   🔍 Starting text entity extraction...
+   ✅ Regex extraction: 7 entities, 0 relationships
+   ✅ LLM extraction: 4 entities, 3 relationships
+   ✅ Total after deduplication: 9 entities, 3 relationships
+      ✅ Batch 1 complete: 4 chunks, 9 entities
+   ⚙️ Batch 2/4: pages 3-4...
+   ✅ Created 2 chunks from text
+   ✅ Created 2 chunks from text
+   🔍 Starting text entity extraction...
+   ✅ Regex extraction: 4 entities, 0 relationships
+   ✅ LLM extraction: 3 entities, 2 relationships
+   ✅ Total after deduplication: 7 entities, 2 relationships
+      ✅ Batch 2 complete: 4 chunks, 7 entities
+   ⚙️ Batch 3/4: pages 5-6...
+   ✅ Created 2 chunks from text
+   ✅ Created 2 chunks from text
+   🔍 Starting text entity extraction...
+   ✅ Regex extraction: 2 entities, 0 relationships
+   ✅ LLM extraction: 4 entities, 2 relationships
+   ✅ Total after deduplication: 6 entities, 2 relationships
+      ✅ Batch 3 complete: 4 chunks, 6 entities
+   ⚙️ Batch 4/4: pages 7-7...
+   ✅ Created 2 chunks from text
+   🔍 Starting text entity extraction...
+   ✅ Regex extraction: 1 entities, 0 relationships
+   ✅ LLM extraction: 2 entities, 1 relationships
+   ✅ Total after deduplication: 3 entities, 1 relationships
+      ✅ Batch 4 complete: 2 chunks, 3 entities
+
+   ✅ Text extraction complete: 7 pages
+   ✅ Total chunks: 14
+   ✅ Total entities: 25, relationships: 8
+
+🔗 Step 3: Creating vector embeddings...
+   🎯 Using model: text-embedding-3-small (1536 dimensions)
+   ✅ Embedded batch 1/1
+   ✅ Created 14 vector points
+
+🔍 Step 4: Vision extraction (first 3 pages)...
+   📸 Processing page 1...
+
+🖼️ [VISION EXTRACTION] Page 1
+   Image size: 870736 bytes (base64)
+   🔄 Calling GPT-4o Vision API...
+   ✅ Vision API response received
+   ✅ JSON parsed successfully
+   📊 Diagram type detected: HVAC
+   ✅ VISION EXTRACTION COMPLETE:
+      Type: HVAC
+      Entities: 8
+      Relationships: 0
+      Summary: This diagram shows the layout of air units with variable frequency drives in a freezer area.
+      ✅ Page 1: 8 entities, 0 rels
+   📸 Processing page 2...
+
+🖼️ [VISION EXTRACTION] Page 2
+   Image size: 921188 bytes (base64)
+   🔄 Calling GPT-4o Vision API...
+   ✅ Vision API response received
+   ⚠️ Vision API refused to analyze (content policy)
+   📄 Refusal message: I'm unable to analyze images directly. However, if you provide details from the diagram, I can help you format the information into the JSON structure...
+      ✅ Page 2: 0 entities, 0 rels
+   📸 Processing page 3...
+
+🖼️ [VISION EXTRACTION] Page 3
+   Image size: 738136 bytes (base64)
+   🔄 Calling GPT-4o Vision API...
+   ✅ Vision API response received
+   ✅ JSON parsed successfully
+   📊 Diagram type detected: HVAC
+   ✅ VISION EXTRACTION COMPLETE:
+      Type: HVAC
+      Entities: 8
+      Relationships: 4
+      Summary: This diagram shows the layout of air units and their associated variable frequency drives in a dry s
+      ✅ Page 3: 8 entities, 4 rels
+   ✅ Vision complete: 16 entities total
+
+📇 Step 5: BM25 indexing...
+   ✅ BM25 indexed 14 chunks
+
+🕸️ Step 6: Saving to Neo4j...
+   📊 Total entities: 41
+   📊 Total relationships: 12
+   ✅ Neo4j: 41 entities saved
+   ✅ Neo4j: 12 relationships saved
+
+💾 Step 7: Saving to ChromaDB...
+   📊 Vector points to save: 14
+   ✅ Saved batch 1/1
+   ✅ ChromaDB: 14 vectors saved
+
+================================================================================
+✅ PROCESSING COMPLETE!
+================================================================================
